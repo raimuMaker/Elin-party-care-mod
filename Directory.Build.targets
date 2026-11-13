@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup Condition="'$(MSBuildProjectName)' == 'ElinPartyCare'">
+    <Compile Remove="Meals\**\*.cs" />
+  </ItemGroup>
+</Project>

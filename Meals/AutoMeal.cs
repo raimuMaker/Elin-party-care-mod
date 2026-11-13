@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace ElinPartyCare;
+namespace ElinPartyMeals;
 
 [HarmonyPatch(typeof(Chara), nameof(Chara.Tick))]
 internal static class AutoMeal
